@@ -64,4 +64,3 @@ if __name__ == "__main__":
     carro2.desligar()
     print(carro1)
     print(carro2)
-

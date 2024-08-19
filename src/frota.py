@@ -37,4 +37,3 @@ class Carro:
                 f'motor {self.motor_on}')
         return info
 
-
