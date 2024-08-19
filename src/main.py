@@ -1,6 +1,5 @@
 from frota import *
 
-
 def operar_carro(carro:Carro):
     print('1- Ligar motor')
     print('2- Desligar motor')
