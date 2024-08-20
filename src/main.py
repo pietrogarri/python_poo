@@ -42,7 +42,7 @@ if __name__ == "__main__":
     '''
     Controlando o carro até ele atingir 600 Km
     '''
-    while carro1.odometro <= 600 and carro2.odometro <= 600 and (carro1.tanque == 0 or carro2.tanque == 0):
+    while carro1.odometro < 600 and carro2.odometro < 600 and (carro1.tanque == 0 or carro2.tanque == 0):
         try:
             op = 0
             while op not in (1,2):
